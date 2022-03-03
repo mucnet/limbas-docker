@@ -9,7 +9,9 @@ RUN yum -y install epel-release http://rpms.remirepo.net/enterprise/remi-release
     yum clean all
 
 # add limbas source
-ADD openlimbas.tar.gz /opt
+# update package to ver. 4.3.36.1319
+# ADD openlimbas.tar.gz /opt
+ADD openlimbas_4.3.36.1319.tar.gz /opt
 RUN chown -R apache:apache /opt/openlimbas/dependent
 
 # fix missing timezone in php.ini
