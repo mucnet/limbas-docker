@@ -6,7 +6,7 @@ As a graphical database front-end, it enables the efficient processing of data s
 
 ## Usage (docker-compose, including PostgreSQL)
 ```
-> git clone https://github.com/limbas/limbas-docker.git
+> git clone https://github.com/mucnet/limbas-docker.git
 > cd limbas-docker
 > docker-compose up
 ```
