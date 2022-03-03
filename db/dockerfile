@@ -1,4 +1,5 @@
-FROM postgres
+# change postgresql version to ver.10 instead of latest
+FROM postgres:10
 MAINTAINER Limbas GmbH <info@limbas.com>
 
 # add limbas demo data, will be imported automatically
