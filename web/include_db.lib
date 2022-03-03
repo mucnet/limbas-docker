@@ -33,7 +33,7 @@ $DBA["DBPATH"] = "";	/* Path to database */
 $DBA["LMPATH"] = "/opt/openlimbas/dependent";	/* Path to LIMBAS */
 $DBA["ODBCDRIVER"] = "PDO";	/* unixODBC Driver */
 $DBA["PORT"] = "";			/* database Port */
-$DBA["VERSION"] = "100004";		/* database version */
+$DBA["VERSION"] = "100020";		/* database version */
 
 require_once("{$DBA['LMPATH']}/lib/db/db_{$DBA['DB']}.lib");
 ?>
